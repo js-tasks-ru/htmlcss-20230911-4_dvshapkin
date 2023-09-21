@@ -1,6 +1,11 @@
 .header {
-  /* общая высота блока: 236px */
-  height: 140px;
-  padding-top: 96px;
-  padding-left: 160px;
+  padding: 96px 0 77px;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
 }
