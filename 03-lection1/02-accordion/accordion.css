@@ -1,7 +1,11 @@
 /* Стилизация аккордеона */
 
 .accordion {
-  padding: 24px 49px 24px 32px;
+  max-width: 800px;
+}
+
+.accordion__section {
+  padding: 1em 2em 1em 1.5em;
   border: 1px solid var(--grey-3);
   border-radius: 8px;
 
@@ -9,7 +13,11 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.2;
+}
+
+.accordion .accordion__section:not(:last-child) {
+  margin-bottom: 16px;
 }
 
 .accordion__summary {
@@ -23,11 +31,15 @@
   display: none;
 }
 
-.accordion__item {
-  margin: 16px 0 0;
+.accordion__content {
+  padding-top: 1em;
   color: var(--grey-4);
 }
 
-.accordion__item :not( :last-child) {
-  margin-bottom: 16px;
+.accordion__text {
+  margin: 0;
+}
+
+.accordion__content .accordion__text:not(:last-child) {
+  margin-bottom: 1em;
 }
