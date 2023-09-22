@@ -1,0 +1,4 @@
+.content {
+  height: 1036px; /* чтобы основной блок был виден */
+  background: var(--bg-color);
+}
