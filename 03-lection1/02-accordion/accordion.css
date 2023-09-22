@@ -1,14 +1,6 @@
 /* Стилизация аккордеона */
 
 .accordion {
-  max-width: 800px;
-}
-
-.accordion__section {
-  padding: 1em 2em 1em 1.5em;
-  border: 1px solid var(--grey-3);
-  border-radius: 8px;
-
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -16,7 +8,13 @@
   line-height: 1.2;
 }
 
-.accordion .accordion__section:not(:last-child) {
+.accordion__section {
+  padding: 1.5em 3em 1.5em 2em;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+}
+
+.accordion__section:not(:last-child) {
   margin-bottom: 16px;
 }
 
@@ -40,6 +38,6 @@
   margin: 0;
 }
 
-.accordion__content .accordion__text:not(:last-child) {
+.accordion__text:not(:last-child) {
   margin-bottom: 1em;
 }
