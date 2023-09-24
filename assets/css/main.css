@@ -36,6 +36,6 @@
     --alternate: var(--white);
 }
 
-* {
+body {
   font-family: 'Roboto', sans-serif;
 }
