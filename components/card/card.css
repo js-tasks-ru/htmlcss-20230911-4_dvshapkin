@@ -1,10 +1,9 @@
 .card {
-  width: 350px;
-  height: 367px;
   padding: 32px;
-  background: var(--white);
   display: flex;
   flex-direction: column;
+  flex-basis: 350px;
+  background: var(--white);
 }
 
 .card__preview {
