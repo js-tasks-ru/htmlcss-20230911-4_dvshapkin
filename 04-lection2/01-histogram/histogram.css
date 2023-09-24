@@ -60,6 +60,8 @@
     background: var(--blue);
 }
 
+/* Фиксированные размеры столбиков ниже для примера */
+
 .histogram__bar_100 {
     min-height: 100%;
 }
