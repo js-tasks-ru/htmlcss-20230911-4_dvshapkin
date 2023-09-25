@@ -41,13 +41,13 @@
   --alternate: var(--white);
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
 html,
 body {
   min-height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
