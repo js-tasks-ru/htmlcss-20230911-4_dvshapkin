@@ -5,9 +5,3 @@
   padding: 68px 0 92px;
   background: var(--bg-color);
 }
-
-/* вложенность добавил для повышения специфичности */
-.content .content__button {
-  /* корректируем высоту кнопки (и немного делаем шире) */
-  padding: 14px 30px 13px;
-}
