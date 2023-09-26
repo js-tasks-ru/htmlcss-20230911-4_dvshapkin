@@ -17,8 +17,10 @@
 }
 
 .histogram__link {
+  margin: 3px 0 0;
   text-decoration: none;
   color: var(--blue);
+  font: normal 400 16px/24px Inter;
 }
 
 .histogram__text {
