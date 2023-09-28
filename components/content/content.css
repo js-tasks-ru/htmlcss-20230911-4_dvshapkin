@@ -1,4 +1,7 @@
 .content {
-  height: 1036px; /* чтобы основной блок был виден */
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 68px 0 92px;
   background: var(--bg-color);
 }
