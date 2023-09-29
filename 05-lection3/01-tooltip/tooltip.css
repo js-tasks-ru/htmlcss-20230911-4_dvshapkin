@@ -32,11 +32,3 @@
   top: 100%;
   transform: translateX(-50%);
 }
-
-/* к компоненту не относится */
-.wrapper {
-  height: 100vh;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
