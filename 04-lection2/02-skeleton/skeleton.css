@@ -38,6 +38,14 @@
   background: var(--grey-2);
 }
 
+.skeleton__text_half {
+  width: 50%;
+}
+
+.skeleton__text_third {
+  width: 33.33%;
+}
+
 .skeleton__text:not(:last-child) {
   margin-bottom: 8px;
 }
