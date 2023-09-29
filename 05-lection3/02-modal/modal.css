@@ -1,9 +1,11 @@
 .modal {
   width: 100vw;
   height: 100vh;
-  display: none;
-  opacity: 30%;
+
   position: fixed;
+  display: none;
+
+  opacity: 30%;
   background: var(--grey-4);
 }
 
@@ -19,6 +21,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 999;
 
   /* opacity: 100%; */
   background: var(--white);
@@ -33,16 +36,19 @@
 
 .modal__title {
   margin: 0 0 14px;
-  color: #334D6E;
+
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
+
+  color: #334D6E;
 }
 
 .modal__content {
   margin: 0;
+
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
