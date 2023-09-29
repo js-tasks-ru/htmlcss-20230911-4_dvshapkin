@@ -1,16 +1,16 @@
 .modal {
   width: 100vw;
   height: 100vh;
+  z-index: 1000;
 
   position: fixed;
   display: none;
 
-  opacity: 30%;
-  background: var(--grey-4);
+  background: rgba(73, 80, 87, 0.3);
 }
 
-.modal__form {
-  max-width: 428px;
+.modal__window {
+  width: 428px;
   border-radius: 8px;
   padding: 30px 40px 40px;
 
@@ -21,9 +21,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 999;
 
-  /* opacity: 100%; */
   background: var(--white);
   color: var(--grey-4);
 }
