@@ -39,11 +39,11 @@
 }
 
 .skeleton__text_half {
-  width: 50%;
+  width: calc((100% + var(--avatar-size)) / 2);
 }
 
 .skeleton__text_third {
-  width: 33.33%;
+  width: calc((100% + var(--avatar-size)) / 3);
 }
 
 .skeleton__text:not(:last-child) {
