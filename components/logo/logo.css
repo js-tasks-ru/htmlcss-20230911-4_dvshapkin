@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  gap: 8px;
+  --logo-size: 32px;
+}
+
+.logo__square {
+  width: var(--logo-size);
+  height: var(--logo-size);
+  background: var(--black);
+}
+
+.logo__circle {
+  width: var(--logo-size);
+  height: var(--logo-size);
+  border-radius: calc(var(--logo-size) / 2);
+  background: var(--black);
+}
+
+.logo__triangle {
+  width: var(--logo-size);
+  height: var(--logo-size);
+  border-left: calc(var(--logo-size) / 2) solid var(--black);
+  border-bottom: calc(var(--logo-size) / 2) solid var(--black);
+  border-top: calc(var(--logo-size) / 2) solid var(--white);
+  border-right: calc(var(--logo-size) / 2) solid var(--white);
+}

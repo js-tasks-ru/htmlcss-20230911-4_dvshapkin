@@ -1,0 +1,31 @@
+body {
+  background: var(--bg-color);
+}
+
+.inner-page {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  column-gap: 56px;
+  row-gap: 36px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.content {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
