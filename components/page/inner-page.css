@@ -18,12 +18,49 @@ body {
   grid-area: header;
 }
 
-.aside {
+.asideMenu {
   grid-area: aside;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.content {
+.asideMenu__submenu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.asideMenu__title {
+  margin: 0 0 16px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.asideMenu__item {
+  text-decoration: none;
+  color: var(--black);
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.asideMenu__item_active {
+  color: var(--red);
+}
+
+.componentArea {
   grid-area: main;
+
+  border-radius: 8px;
+  background: var(--white);
 }
 
 .footer {
