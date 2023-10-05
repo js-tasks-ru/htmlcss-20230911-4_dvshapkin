@@ -1,11 +1,13 @@
 .avatar {
   --avatar-size: 102px;
-}
-
-.avatar__img {
   width: var(--avatar-size);
   height: var(--avatar-size);
   border-radius: calc(var(--avatar-size) / 2);
   overflow: hidden;
+}
+
+.avatar__img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
