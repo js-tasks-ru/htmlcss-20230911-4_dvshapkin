@@ -1,0 +1,32 @@
+@media screen and (max-width: 400px) {
+  .bg-image {
+    --adaptive-image: url(public/forest_400.jpg);
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  .bg-image {
+    --adaptive-image: url(public/forest_768.jpg);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .bg-image {
+    --adaptive-image: url(public/forest_1024.jpg);
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .bg-image {
+    --adaptive-image: url(public/forest_2560.jpg);
+  }
+}
+
+.bg-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--adaptive-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
