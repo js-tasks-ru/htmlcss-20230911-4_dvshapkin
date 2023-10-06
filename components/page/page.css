@@ -8,3 +8,32 @@
 .page__main {
   flex-grow: 1;
 }
+
+.page_inner {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 56px;
+  row-gap: 36px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+.page_inner__header {
+  grid-area: header;
+}
+
+.page_inner__aside-menu {
+  grid-area: aside;
+}
+
+.page_inner__component-area {
+  grid-area: main;
+}
+
+.page_inner__footer {
+  grid-area: footer;
+}

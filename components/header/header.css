@@ -45,28 +45,3 @@
   font-weight: 500;
   line-height: 64px;
 }
-
-.header__tabs {
-  margin-top: 26px;
-  display: flex;
-  gap: 40px;
-}
-
-.header__tabItem {
-  padding-bottom: 8px;
-
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-
-  text-decoration: none;
-
-  color: var(--grey-3);
-}
-
-.header__tabItem_active {
-  color: var(--black);
-  border-bottom: 5px solid var(--black);
-}
