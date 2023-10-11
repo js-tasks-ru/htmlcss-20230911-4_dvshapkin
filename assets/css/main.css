@@ -8,6 +8,9 @@
 @import '../../components/container/container.css';
 @import '../../components/cardsArea/cardsArea.css';
 @import '../../components/card/card.css';
+@import '../../components/logo/logo.css';
+@import '../../components/aside-menu/aside-menu.css';
+@import '../../components/component-area/component-area.css';
 
 @import '../../03-lection1/01-button/button.css';
 
@@ -51,6 +54,7 @@ body {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: var(--bg-color);
 }
 
 * {

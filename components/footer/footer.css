@@ -1,15 +1,28 @@
 .footer {
-  padding: 72px 0 136px;
+  padding: 56px 0;
   text-align: center;
 }
 
 .footer__title {
-  margin: 0;
-  margin-bottom: 32px;
+  margin: 16px 0 32px;
   font-size: 38px;
   font-style: normal;
   font-weight: 500;
   line-height: 48px;
+}
+
+.footer__title-upper {
+  margin: 0;
+
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+
+  color: var(--grey-3);
 }
 
 .footer__description {

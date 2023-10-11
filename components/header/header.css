@@ -1,9 +1,45 @@
 .header {
-  padding: 96px 0 77px;
+  /* padding: 96px 0 77px; */
+}
+
+.header__line {
+  margin: 24px 0;
+  padding-bottom: 2px;
+
+  display: flex;
+  gap: 56px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.header__menu {
+  display: flex;
+  gap: 24px;
+}
+
+.header__menuItem {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+  text-decoration: none;
+
+  color: var(--grey-3);
+}
+
+.header__menuItem_active {
+  color: var(--black);
+}
+
+.header_buttonGroup {
+  display: flex;
+  gap: 12px;
 }
 
 .header__title {
-  margin: 0;
+  margin: 14px 0;
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
