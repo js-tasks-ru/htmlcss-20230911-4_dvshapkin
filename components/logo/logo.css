@@ -1,4 +1,4 @@
-.header__logo {
+.logo {
   display: flex;
   gap: 8px;
 
@@ -7,20 +7,20 @@
   --logo-size: 32px;
 }
 
-.header__square {
+.logo__square {
   width: var(--logo-size);
   height: var(--logo-size);
   background: var(--black);
 }
 
-.header__circle {
+.logo__circle {
   width: var(--logo-size);
   height: var(--logo-size);
   border-radius: calc(var(--logo-size) / 2);
   background: var(--black);
 }
 
-.header__triangle {
+.logo__triangle {
   width: var(--logo-size);
   height: var(--logo-size);
   border-left: calc(var(--logo-size) / 2) solid var(--black);
